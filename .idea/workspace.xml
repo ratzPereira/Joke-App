@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d069eaa4-067d-441a-bdca-5e81e7785ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/services/JokeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/services/JokeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/controllers/JokeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/services/JokeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -55,6 +54,20 @@
                 <element signature="e#321#322#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/controllers/JokeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +93,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/services/JokeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/services/JokeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/controllers/JokeController.java" />
       </list>
     </option>
   </component>
@@ -151,15 +165,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jokeapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="joke-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joke-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jokeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598842844125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598843218063" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -206,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598841400213</updated>
-      <workItem from="1598841403665" duration="1434000" />
+      <workItem from="1598841403665" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="Started joke app and added chuck dependency">
       <created>1598842382004</created>
@@ -215,14 +220,29 @@
       <option name="project" value="LOCAL" />
       <updated>1598842382004</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added jokeservices and implementation">
+      <created>1598842872193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598842872193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added jokeservices and implementation">
+      <created>1598842888291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598842888291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1434000" />
+    <option name="totallyTimeSpent" value="1675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -262,7 +282,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started joke app and added chuck dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started joke app and added chuck dependency" />
+    <MESSAGE value="Added jokeservices and implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jokeservices and implementation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/JokeappApplication.java">
@@ -297,6 +318,18 @@
             <element signature="e#321#322#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/jokes/app/jokeapp/controllers/JokeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
